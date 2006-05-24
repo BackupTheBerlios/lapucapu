@@ -1,0 +1,9 @@
+<!ELEMENT xml (message,from,anwser)>
+<!ELEMENT message EMPTY>
+<!ELEMENT from (user)>
+<!ELEMENT anwser (#PCDATA)>
+<!ELEMENT user EMPTY>
+<!ATTLIST message type CDATA #FIXED "respose">
+<!ATTLIST message value CDATA #FIXED "add_user">
+<!ATTLIST anwser state (add_ok|add_fail) #REQUIRED>
+<!ATTLIST user uid CDATA #REQUIRED>

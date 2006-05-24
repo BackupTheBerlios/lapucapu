@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- szablon wiadomości, cały dokument będie mógł być w całości 
+     przekazany użytkownikom od których jest adresowany -->
+
+<xml>
+	<message type="message"></message>
+	<owner>
+		<!-- tu idzie uid nadawcy-->
+		<user uid="0000001"></user>
+	</owner>
+	<to>
+		<!-- tu idzą uid-y odbiorców - dzięki temu będzie możliwa konferencja-->
+		<user uid="0000002"></user>
+		<user uid="0000003"></user>
+	</to>
+	<body>
+	
+		<b>Treść wiadomości</b>
+		z przepięknym formatowaniem :)
+		
+		<!--
+		dzięki takiemu rozwiązaniu będzie możliwe szybkie debugowanie 
+		przesyłanych wiadomości dzięki dołączeniu do nich arkusza styli
+		i wyświetlenie w przeglądarce (osadzonym obiekcie przeglądarki)
+		-->
+	</body>
+</xml>

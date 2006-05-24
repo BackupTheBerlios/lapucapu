@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "request_login.dtd">
+
+<xml>
+	<message type="request_login"/>
+	<from>
+		<user uid="1">
+			<passwd>maryna</passwd>
+		</user>
+	</from>
+</xml>

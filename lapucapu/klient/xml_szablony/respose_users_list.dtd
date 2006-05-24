@@ -1,0 +1,9 @@
+<!ELEMENT xml (message,users)>
+<!ELEMENT message EMPTY>
+<!ELEMENT users (user*)>
+<!ELEMENT user ANY>
+<!ELEMENT nick (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ATTLIST message value CDATA #FIXED "users_list">
+<!ATTLIST user uid CDATA #REQUIRED>

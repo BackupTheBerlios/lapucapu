@@ -1,0 +1,9 @@
+<!ELEMENT xml (message,from,to,body)>
+<!ELEMENT message EMPTY>
+<!ELEMENT from (user)>
+<!ELEMENT to (user+)>
+<!ELEMENT body ANY>
+<!ELEMENT user EMPTY>
+
+<!ATTLIST message type CDATA #FIXED "message">
+<!ATTLIST user uid CDATA #REQUIRED>

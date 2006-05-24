@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "message.dtd">
+
+<xml>
+	<message type="request" value="message"/>
+	<from>
+		<user uid="0000001"/>
+	</from>
+	<to>
+		<user uid="0000002"/>
+		<user uid="0000003"/>
+	</to>
+	<body>Treść wiadomości , z fajnym formatowaniem ktorego jeszcze nie ma :)</body>
+</xml>

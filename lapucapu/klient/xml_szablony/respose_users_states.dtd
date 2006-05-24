@@ -1,0 +1,8 @@
+<!ELEMENT xml (message,users)>
+<!ELEMENT message EMPTY>
+<!ELEMENT users (user*)>
+<!ELEMENT user (status)>
+<!ELEMENT status (#PCDATA)>
+<!ATTLIST message type CDATA #FIXED "respose_users_states">
+<!ATTLIST user uid CDATA #REQUIRED>
+<!ATTLIST status state (online|offline|invisible|brb) #REQUIRED>

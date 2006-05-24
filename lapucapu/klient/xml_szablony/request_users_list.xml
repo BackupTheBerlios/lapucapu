@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "request_users_list.dtd">
+
+<xml>
+	<message type="request_users_list"/>
+	<from>
+		<!-- tu idzie uid nadawcy-->
+		<user uid="0000001"/>
+	</from>
+</xml>

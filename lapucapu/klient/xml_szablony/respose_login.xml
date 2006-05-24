@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "respose_login.dtd">
+<!-- szablon odpowiedzi na probe zalogowania -->
+
+<xml>
+	<message type="respose" value="login"/>
+	<from>
+		<!-- tu idzie uid nadawcy-->
+		<user uid="0000002"></user>
+	</from>
+	<anwser state="logged_in"><!--<anwser state="acces_deny">-->
+	reason: tekst do wyswietlenia userowi, zalogowany, zle chaslo,
+	nie ma takiego uzytkownika, serwer zajety itp
+	</anwser>
+
+</xml>

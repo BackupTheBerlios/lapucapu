@@ -1,0 +1,6 @@
+<!ELEMENT xml (message,from)>
+<!ELEMENT message EMPTY>
+<!ELEMENT from (user)>
+<!ELEMENT user EMPTY>
+<!ATTLIST message type CDATA #FIXED "request_users_states">
+<!ATTLIST user uid CDATA #REQUIRED>

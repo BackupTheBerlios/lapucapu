@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "respose_users_list.dtd">
+<!-- szablon odpowiedzi na rzadanie listy kontaktow -->
+
+<xml>
+	<message type="respose" value="users_list"/>
+	
+	<from>
+		<!-- tu idzie uid nadawcy-->
+		<user uid="0000001"/>
+	</from>
+	
+	<users>
+		<user uid="0000002">
+			<nick>power</nick>
+			<name>Mariusz</name>
+			<surname>Walczyk</surname>
+			<tel>600523023</tel>
+			
+			<!-- dodajcie jakie tam jeszcze info chcecie -->
+		</user>
+		
+		<user uid="0000003">
+			<nick>praf</nick>
+			<name>Rafał</name>
+			<surname>Piotrowski</surname>
+			<tel>070072772</tel>
+		</user>
+		
+		<user uid="0000004">
+			<nick>endriu</nick>
+			<name>Andrzej</name>
+			<surname>Wańkowicz</surname>
+			<tel>0700880880</tel>
+		</user>
+		
+		<user uid="0000005">
+			<nick>olo</nick>
+			<name>Aleksander</name>
+			<surname>Handzel</surname>
+			<tel>0800123123</tel>
+		</user>
+	</users>
+</xml>

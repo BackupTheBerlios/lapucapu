@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "respose_add_user.dtd">
+<!-- szablon odpowiedzi na probe dodania nowego usera -->
+
+<xml>
+	<message type="respose_add_user"/>
+	<from>
+		<!-- jesli system zwrocil uid 00000000 
+		     to juz wiemy ze cos poszlo nie tak-->
+		<user uid="0000002"></user>
+	</from>
+	<anwser state="add_ok"><!--<anwser state="add_fail">-->
+	reason: tekst do wyswietlenia userowi, dodano pomyslnie, 
+	nie mozna dodac uzytkownika,serwer zajety itp
+	</anwser>
+
+</xml>

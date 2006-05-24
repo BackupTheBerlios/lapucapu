@@ -1,0 +1,7 @@
+<!ELEMENT xml (message,from)>
+<!ELEMENT message EMPTY>
+<!ELEMENT from (user)>
+<!ELEMENT user (passwd)>
+<!ELEMENT passwd (#PCDATA)>
+<!ATTLIST message type CDATA #FIXED "request_login">
+<!ATTLIST user uid CDATA #REQUIRED>

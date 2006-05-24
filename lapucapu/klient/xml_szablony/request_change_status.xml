@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "request_change_status.dtd">
+
+<xml>
+	<message type="change_status"/>
+	<from>
+		<user uid="0000002">
+			<status state="invisible">Ja was widze a wy mnie nie :P</status>
+		</user>
+	</from>
+</xml>

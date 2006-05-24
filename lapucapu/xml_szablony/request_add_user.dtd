@@ -1,0 +1,12 @@
+<!ELEMENT xml (message,from)>
+<!ELEMENT message EMPTY>
+<!ELEMENT from (user)>
+<!ELEMENT user (nick,passwd,name,surname,tel)>
+<!ELEMENT nick (#PCDATA)>
+<!ELEMENT passwd (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT tel (#PCDATA)*>
+<!ATTLIST message type CDATA #FIXED "request">
+<!ATTLIST message value CDATA #FIXED "add_user">
+<!ATTLIST user uid CDATA #REQUIRED>

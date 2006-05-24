@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "request_change_status.dtd">
+<!-- szablon rządania zmiany statusu, dokument po przesłaniu na serwer
+     będzie mógł być w całości przesłany do dostępnego użytkownika którego 
+     "owner" ma na liście kontaktów -->
+
+<xml>
+	<message type="request" value="change_status"/>
+	<from>
+		<!-- tu idzie uid nadawcy-->
+		<user uid="0000002">
+			<status state="invisible">Ja was widzę a wy mnie nie :P</status>
+		</user>
+	</from>
+</xml>

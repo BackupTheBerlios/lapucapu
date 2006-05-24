@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "request_add_user.dtd">
+
+<xml>
+	<message type="request_add_user"/>
+	<from>
+		<user uid="0000000">
+			<passwd>maryna</passwd>
+		</user>
+	</from>
+</xml>

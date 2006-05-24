@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "request_add_user.dtd">
+<!-- szablon rządania dodania użytkownika do systemu -->
+
+<xml>
+	<message type="request" value="add_user"/>
+	<from>
+		<!-- to może być specjalny numer który nie może 
+		być przydzielony rzadnemu userowi -->
+		<user uid="0000000">
+			<nick>power</nick>
+			<!-- puźniej można pomyśleć o jakimś zakodowaniu hasła -->
+			<passwd>maryna</passwd>
+			
+			<name>Mariusz</name>
+			<surname>Walczyk</surname>
+			<tel>600523023</tel>
+			
+			<!-- dodajcie jakie tam jeszcze info chcecie -->
+		</user>
+	</from>
+</xml>

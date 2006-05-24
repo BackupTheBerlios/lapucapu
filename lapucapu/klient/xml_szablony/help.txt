@@ -1,0 +1,16 @@
+-----------------------------------------------------------------------------
+Witaj w tcl_kliencie :D (nie przetestowalem jeszcze odbioru danych z serwera)
+
+Uzycie:
+connect <serwer ip> <port num>           - towrzy polaczenie do serwera
+new_user <passwd>                        - dodaje nowego usera do systemu
+login <uid> <passwd>                     - loguje do systemu z danym uid
+message <receiver uid> <message content> - wysyla wiadomosc 
+
+add_user <uid>                           - dodaje kontakt do listy
+rm_user <uid>                            - usuwa kontakt z listy
+show_users                               - pokazuje stany kontaktow
+
+Mozna tez wczytac skrypt do programu: ./komunikator_2 skrypt
+-----------------------------------------------------------------------------
+	

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xml SYSTEM "respose_users_list.dtd">
+<xml>
+	<message value="users_list"/>
+	
+	<users>
+		<user uid="0000002">
+			<nick>power</nick>
+			<name>Mariusz</name>
+			<surname>Walczyk</surname>
+			<!-- dodajcie jakie tam jeszcze info chcecie -->
+		</user>
+		
+		<user uid="0000003">
+			<nick>praf</nick>
+			<name>Rafał</name>
+			<surname>Piotrowski</surname>
+		</user>
+		
+		<user uid="0000004">
+			<nick>endriu</nick>
+			<name>Andrzej</name>
+			<surname>Wańkowicz</surname>
+		</user>
+		
+		<user uid="0000005">
+			<nick>olo</nick>
+			<name>Aleksander</name>
+			<surname>Handzel</surname>
+		</user>
+	</users>
+</xml>
